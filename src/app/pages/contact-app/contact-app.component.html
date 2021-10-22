@@ -1,0 +1,5 @@
+<h3> ¿Sabes los nombres de los Personajes ?</h3>
+<div [ngClass]="{'correcto':result==true,'error':result==false}">
+    <p *ngIf="(result==false)||(result==true)">{{result?"Correcto":"Incorrecto .vuelve a ver la galeria "}}</p>
+    <app-form-app (emitirMensaje)="setMessage($event)"></app-form-app>
+</div>

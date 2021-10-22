@@ -1,0 +1,6 @@
+<div class="container">
+    <img  src="{{galleries[num].src}}" alt="{{galleries[num].alt}}" >
+    <h2>Cual es nombre de este Personaje</h2>
+    <input #inputNombre type="text">
+    <button type="button" (click)="verificar(inputNombre.value,galleries[num].nombre)">Verificar</button>
+</div>

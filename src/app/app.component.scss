@@ -1,0 +1,30 @@
+
+nav{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 200px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 20px;
+        align-items: center;
+        li{
+            margin-right:40px;
+            a{
+                color:orange;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// @media screen and (max-width:320px) {
+//     nav ul li{
+//         margin-right:40px;
+//     }
+// }

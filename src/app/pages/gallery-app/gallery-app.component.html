@@ -1,0 +1,7 @@
+<h1>Personajes Principales</h1>
+<ul class="personajes">
+    <li *ngFor="let gallery of galleries">
+        <h3>{{gallery.nombre}}</h3>
+        <img src="{{gallery.src}}" alt="{{gallery.alt}}">
+    </li>
+</ul>
